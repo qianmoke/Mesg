@@ -1,0 +1,1 @@
+python bs.py >> test_out.txt
