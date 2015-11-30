@@ -37,6 +37,8 @@ def main(argv):
   html_dic={}
   mesg_dic={}
   mesg=[]
+  mesg_writed=[]
+  write_mesg_to_xls(mesg_writed,mesg_dic,xls_name)
   mesg_writed=init(xls_name)
   while(1) :
     (header, packet) = cap.next()
