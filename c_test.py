@@ -95,7 +95,7 @@ def write_mesg_to_xls(wlist,dic,xls):
   col=0
   for time in dic.keys():
     if time not in wlist:
-      print wlist
+      #print wlist
       for mesg_data in dic[time]:
         sheet.write(row,col,mesg_data)
         col +=1
